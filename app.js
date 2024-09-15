@@ -39,7 +39,7 @@ boxes.forEach((box) => {
 let disableBox = () => {
     for (let box of boxes) {
         box.disabled = true;
-    }
+    } 
 }
 let enableBox = () => {
     for (let box of boxes) {

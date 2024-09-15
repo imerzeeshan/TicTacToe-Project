@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
+.container-fluid {
     text-align: center;
     background-color: #966F33;
 }
@@ -14,10 +17,11 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    margin-top: 10px;
+    padding-top: 10px;
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
+    text-align: center;
 }
 
 .box-container {
@@ -83,16 +87,69 @@ body {
 }
 
 .msg-win {
-    margin-top: 200px;
+    padding-top: 200px;
     height: 800px;
+    background-color: #966F33;
+    text-align: center;
 }
 
 .hide {
     display: none;
 }
-.footer{
-    background-color: white;
-    height: 24px;
-    margin-top: 160px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.vr-footer-section {
+    background-color: #19232d;
+    color: #5a7184;
+    font-family: 'Roboto';
+}
+
+hr {
+    background-color: #5a7184;
+}
+
+.vr-footer-image {
+    width: 56px;
+    height: 36px;
+}
+
+.vr-footer-icon {
+    cursor: pointer;
+    background-color: #202b36;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 15px 33px 35px 17px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    font-size: 18px;
+    color: #5a7184;
+}
+
+.vr-footer-section-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #5a7184;
+    text-wrap: balance;
+}
+
+.vr-footer-section-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5a7184;
+}
+
+.vr-footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.vr-footer-copy-right {
+    color: #959ead;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
 }
