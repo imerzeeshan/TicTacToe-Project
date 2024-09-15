@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe Game</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body> 
     <div class="msg-win hide">
         <p class="msg">Winner</p>
         <button class="new-btn">New Game</button>
     </div>
-    <div>
+    <div class="container-fluid">
         <h2 class="content">Tic-Tac-Toe</h2>
         <div class="box-container">
             <div class="game">
@@ -28,9 +33,69 @@
                 <button class="box"></button>
             </div>
         </div>
-        <button class="reset-btn">Reset Game</button>
+        <div class="text-center pb-5 pt-3">
+            <button class="reset-btn">Reset Game</button>
+        </div>
     </div>
-    <div class="footer"><footer>Developed by Md Shadab hussain.</footer></div>
+    <div class="vr-footer-section pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="text-center text-md-left">
+                        <img class="vr-footer-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" alt="" />
+                        <div class="d-flex flex-row justify-content-center justify-content-md-start mb-3 mt-3">
+                            <div class="vr-footer-icon">
+                                <i class="icon fa-brands fa-google"></i>
+                            </div>
+                            <div class="vr-footer-icon">
+                                <i class="icon fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="vr-footer-icon ">
+                                <i class="icon fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="vr-footer-icon">
+                                <i class="icon fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <p class="vr-footer-section-text">
+                            Shahganj benta Laheriasarai, Darbhanga, Bihar, India.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 mt-3">
+                    <h1 class="vr-footer-section-heading pb-2">Contact Us</h1>
+                    <ul class="vr-footer-section-list">
+                        <li class="mb-3">
+                            <i class="fas fa-envelope icon mr-2"></i>
+                            <span class="vr-footer-section-text">imezeeshan@gamil.com</span>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-phone-alt icon mr-2"></i>
+                            <span class="vr-footer-section-text">6200297847</span>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-skype icon mr-2"></i>
+                            <span class="vr-footer-section-text">imezeeshan</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 mt-3">
+                    <h1 class="vr-footer-section-heading pb-2">Let Us Help You</h1>
+                    <ul class="vr-footer-section-list">
+                        <li class="vr-footer-section-text">100% Purchase Protection</li>
+                        <li class="vr-footer-section-text">Your Account</li>
+                        <li class="vr-footer-section-text">Return Centre</li>
+                        <li class="vr-footer-section-text">Help</li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center">
+                    <hr />
+                    <p class="vr-footer-copy-right">&#169; 2024  Developed by Md Shadab hussain & Md Zeeshan.. Created with Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="app.js"></script>
 </body>
 
